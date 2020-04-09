@@ -63,9 +63,11 @@
     align-items: center;
 }
 .c_header h2{
+/*    font-family: 'Dosis', sans-serif;*/
     font-family: 'Lobster', cursive;
-/*    font-family: 'Carter One', cursive;*/
-    font-size:3.3rem;
+    font-family: 'Carter One', cursive;
+    font-size:3.1rem;
+    font-weight: 200;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
     margin: 0px;
 }
@@ -156,14 +158,13 @@
 
 .account_section{
     display: flex;
-    height: 170px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     color: #000;
-    border-bottom: 1px solid rgba(0,0,0,0.3);
+/*    border-bottom: 1px solid rgba(0,0,0,0.3);*/
 /*    background: linear-gradient(to top,var(--pcolordark),var(--pcolor));*/
 /*    background-color: rgba(75, 19, 141, 0.89);*/
 /*    background-color: var(--scolor);*/
@@ -182,16 +183,19 @@
 .a_header{
     display: flex;
     width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
 /*    background-color: aqua;*/
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 .a_header p{
-    font-family: 'Dosis', sans-serif;
+/*    font-family: 'Dosis', sans-serif;*/
 /*    font-size: 0.9em;*/
 /*    color: #fff;*/
 /*    line-height: 1.5;*/
-    font-size: 1.6rem;
+    font-size: 1.2em;
 /*    font-weight: bold;*/
 }
 
