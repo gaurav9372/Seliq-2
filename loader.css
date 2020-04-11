@@ -1,0 +1,67 @@
+.no-js #loader {
+    display: none;  
+}
+
+.js #loader { 
+    display: block; 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}
+
+.loader_cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.bar{
+    position: relative;
+    width: 20px;
+    height: 50px;
+    border-radius: 10px;
+    background:linear-gradient(hsla(350,70%,50%,1) ,hsla(350,70%,30%,1));
+    z-index: 3333;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.bar1{
+    animation: a1 1s linear infinite;
+    animation-delay: 100ms;
+}
+.bar2{
+    animation: a2 1s linear infinite;
+    animation-delay: 300ms;
+}
+.bar3{
+    animation: a3 1s linear infinite;
+    animation-delay: 500ms;
+}
+
+@keyframes a1{
+    50%{
+        height: 200px; 
+    }
+}
+@keyframes a2{
+    50%{
+        height: 200px;
+    }
+}
+@keyframes a3{
+    50%{
+        height: 200px;
+    }
+}
+
+
+
+
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
 
@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="loader.css">
      
   		<title>Seliq - Home Page</title>
 
@@ -21,10 +22,27 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
- 
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	
+    <script src="https://github.com/Modernizr/Modernizr/raw/master/modernizr.js"></script>
+    
+    <script src="js/loader.js"></script>
+    
 </head>
 
 <body>
+    
+    <div id="loader">
+        <div class="loader_cont">
+            <div class="bar bar1 m5"></div>
+            <div class="bar bar2 m5"></div>
+            <div class="bar bar3 m5"></div>
+            <div class="bar bar2 m5"></div>
+            <div class="bar bar1 m5"></div>
+        </div>
+    </div>
+        
     
 <header class="header">
         <nav class="navbar shadow navbar-expand-lg navbar-dark nav-bg-color">
